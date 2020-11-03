@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/style.css" />
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet" />
     <title>Axis Adventure Camps</title>
   </head>
 
@@ -15,12 +16,12 @@
           <div class="logo">
             <img src="axis-logo.png" alt="" />
           </div>
-          <h1>Axis Adventure Camps</h1>
+          <a href="index.html"><h1>Axis Adventure Camps</h1></a>
         </div>
         <ul>
-          <li>Programs</li>
-          <li>COVID-19</li>
-          <li>FAQ</li>
+          <li><a class="programs" href="programs.html">Programs</a></li>
+          <li><a class="programs" href="covid-19.html">COVID-19</a></li>
+          <li><a class="programs" href="faq.html">FAQ</a></li>
         </ul>
       </div>
     </nav>
@@ -28,20 +29,23 @@
 
   <body>
     <main>
-      <div id="landing">
-        <div id="landing-text"></div>
-        <img class="box-1" src="AxisTempImages_LS-008.jpg" alt="" />
-      </div>
-      <div id="landing-text-inner">
-        <h1>Axis Adventure Camps</h1>
-        <h3>Building a Lifetime of Memories</h3>
+      <div class="landing-wrapper">
+        <div id="landing">
+          <div id="landing-text"></div>
+          <img class="box-1" src="AxisTempImages_LS-008.jpg" alt="" />
+        </div>
+        <div id="landing-text-inner">
+          <h1>Axis Adventure Camps</h1>
+          <h3>Building a Lifetime of Memories</h3>
+        </div>
       </div>
 
       <div id="landing-2">
         <div id="landing-text-2">
+          <div class="landing-slant-background"></div>
           <div id="landing-text-inner-2">
             <h1>About Axis Adventures</h1>
-            <h3>The magic of Our Summer Camp</h3>
+            <h3>The Magic of Our Camp</h3>
             <h5>
               At Axis Adventure Camps, we offer kids of all ages an opportunity
               for growth. Our enriched biking program is designed for campers to
@@ -54,28 +58,33 @@
             </h5>
           </div>
         </div>
-        <img class="landing-2-img" src="Axis-2.jpg" alt="" />
+        <div class="landing-img">
+          <img class="landing-2-img" src="Axis-2.jpg" alt="" />
+        </div>
       </div>
 
-      <div class="middle-section">
-        <div class="middle-section-inner">
-          <h1>Our People</h1>
-          <div class="pmbi_and_logo">
-            <h3>PMBI (Professional Mountain Bike Instructors Association)</h3>
-            <h5>
-              Our staff are PMBI (Professional Mountain Bike Instructors
-              Association) certified, are highly trained, and first aid
-              certified, with criminal record and background checks. Our camp is
-              fully insured and registered within BC and Whistler, and is based
-              in Function Junction.
-            </h5>
-            <img src="pmbi.png" alt="" />
+      <div class="middle-section-container">
+        <div class="middle-section">
+          <div class="middle-section-inner">
+            <h1>Our People</h1>
+            <div class="pmbi_and_logo">
+              <h3>PMBI (Professional Mountain Bike Instructors Association)</h3>
+              <h5>
+                Our staff are PMBI (Professional Mountain Bike Instructors
+                Association) certified, are highly trained, and first aid
+                certified, with criminal record and background checks. Our camp
+                is fully insured and registered within BC and Whistler, and is
+                based in Function Junction.
+              </h5>
+              <img src="pmbi.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
 
       <div id="landing-3">
         <div id="landing-text-3">
+          <div class="landing-slant-background-3"></div>
           <div id="landing-text-inner-3">
             <h1>Who are we?</h1>
             <h5>
@@ -101,5 +110,14 @@
         &copy;Axis Adventure Camps
       </div>
     </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"
+      integrity="sha256-+xf9aJnHocnmrigq2hIDJGBSAnJdF5NH+Ooe5J2PHiI="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var rellax = new Rellax(".rellax");
+    </script>
   </body>
 </html>
