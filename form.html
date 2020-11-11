@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet" />
+    
+
+    <title>Axis Adventure Camps</title>
+  </head>
+
+  <header>
+    <nav>
+      <div class="nav-container">
+        <div class="logo_and_title">
+          <div class="logo">
+            <img src="axis-logo.png" alt="" />
+          </div>
+          <a href="index.html"><h1>Axis Adventure Camps</h1></a>
+        </div>
+        <ul>
+          <li>
+            <button class="programs register-button">
+              <a href="form.html">Register</a>
+            </button>
+          </li>
+          <li><a class="programs" href="programs.html">Programs</a></li>
+          <li><a class="programs" href="covid-19.html">COVID-19</a></li>
+          <li><a class="programs" href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-form">
+    <div class="form-and-photo">
+      <form class="sign-up-form" action="/my-handling-form-page" method="post">
+        <div class="form-style-5">
+          <form action ="POST" data-netlify="true">
+            <fieldset>
+              <legend><span class="number">1</span> Candidate Info</legend>
+              <label for="your-name">First and Last Name</label>
+              <input type="text" name="field1" placeholder="" />
+
+              <label for="child-name">Child Name</label>
+              <input type="text" name="field2" placeholder="" />
+
+              <label for="email">Email</label>
+              <input type="email" name="field3" placeholder="Your Email*" />
+
+              <label for="phone-number">Phone Number</label>
+              <input type="number" name="field4" placeholder="Phone Number*" />
+              <label for="job">How did you hear about us?</label>
+
+              <select id="job" name="field4">
+                <option value="fishkeeping">Reference</option>
+                <option value="reading">Facebook</option>
+                <option value="boxing">Google</option>
+                <option value="debate">E-mail</option>
+                <option value="gaming">Poster</option>
+                <option value="snooker">Other</option>
+              </select>
+            </fieldset>
+            <fieldset>
+              <legend><span class="number">2</span> Additional Info</legend>
+              <label for="phone-number"
+                >Do you have any questions/comments at all about our
+                programs?</label
+              >
+              <textarea name="field3" placeholder=""></textarea>
+              <div class="field">
+                <div data-netlify-recaptcha="true"></div>
+              </div>
+            </fieldset>
+
+            <input type="submit" value="Apply" />
+          </form>
+        </div>
+        <div class="form-image">
+          <img src="Axis-11.jpg" alt="" />
+        </div>
+        
+      </div>
+
+        <!--Name: First, and last 
+            Email: 
+            Phone number: 
+            Child name: 
+            How did you
+        hear about us: 
+        Do you have any questions/comments at all about our
+        programs? 
+        Would you like to be added to our mailing list?-->
+      </form>
+    </div>
+  </main>
+
+  <footer>
+      <div class="info_container">
+        <h3>Get In Touch</h3>
+        <p>Email: <strong>info@axisadventurecamps.com</strong></p>
+        <p>Call: <strong>604-907-0790</strong></p>
+        &copy;Axis Adventure Camps
+      </div>
+    </footer>
+</html>

@@ -18,30 +18,6 @@
 
     <title>Axis Adventure Camps</title>
   </head>
-
-  <header>
-    <nav>
-      <div class="nav-container">
-        <div class="logo_and_title">
-          <div class="logo">
-            <img src="axis-logo.png" alt="" />
-          </div>
-          <a href="index.html"><h1>Axis Adventure Camps</h1></a>
-        </div>
-        <ul>
-          <li>
-            <button class="programs register-button">
-              <a href="form.html">Register</a>
-            </button>
-          </li>
-          <li><a class="programs" href="programs.html">Programs</a></li>
-          <li><a class="programs" href="covid-19.html">COVID-19</a></li>
-          <li><a class="programs" href="faq.html">FAQ</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
   <main>
     <div class="faqs-top-section">
       <div class="faqs-headliner">
@@ -100,12 +76,83 @@
     </div>
   </main>
 
-  <footer>
-    <div class="info_container">
-      <h3>Get In Touch</h3>
-      <p>Email: <strong>info@axisadventurecamps.com</strong></p>
-      <p>Call: <strong>604-907-0790</strong></p>
-      &copy;Axis Adventure Camps
-    </div>
-  </footer>
+  <style>
+    .faqs-headliner {
+      position: relative;
+      margin-top: 10%;
+      text-align: center;
+    }
+
+    .q-and-a {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .questions-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 50%;
+      margin: 5rem;
+      font-size: 1.3rem;
+    }
+
+    .question {
+      max-width: 40%;
+      position: relative;
+      border: 3px solid #606c38;
+      padding: 2rem;
+      margin: 0.5rem;
+    }
+
+    .question:active {
+      border: 3px solid white;
+      background-color: #606c38;
+      color: white;
+    }
+
+    .question:hover {
+      transform: translateY(-3px);
+    }
+
+    .question:active {
+      transform: translateY(1px);
+    }
+
+    .question:focus {
+      border: 3px solid white;
+      background-color: #606c38;
+      color: white;
+    }
+
+    .answers-container {
+      margin-top: 4.85rem;
+      width: 50%;
+    }
+
+    .answer {
+      position: relative;
+      border: 3px solid #606c38;
+      padding: 2rem;
+      margin: 0.5rem;
+      max-width: 40%;
+      min-width: 39%;
+      min-height: 10rem;
+      font-size: 1.3rem;
+      display: none;
+      background-color: #ffd2a0;
+    }
+
+    .bottomliner {
+      max-width: 100vw;
+      border: 2px solid #606c38;
+      background-color: #606c38;
+      color: white;
+      display: flex;
+      flex-direction: column;
+    }
+    .more-questions {
+      text-align: center;
+      padding: 5rem;
+    }
+  </style>
 </html>

@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet" />
+
     <title>Axis Adventure Camps</title>
   </head>
 
@@ -19,6 +24,11 @@
           <a href="index.html"><h1>Axis Adventure Camps</h1></a>
         </div>
         <ul>
+          <li>
+            <button class="programs register-button">
+              <a href="form.html">Register</a>
+            </button>
+          </li>
           <li><a class="programs" href="programs.html">Programs</a></li>
           <li><a class="programs" href="covid-19.html">COVID-19</a></li>
           <li><a class="programs" href="faq.html">FAQ</a></li>
@@ -31,10 +41,9 @@
     <main>
       <div class="landing-wrapper">
         <div id="landing">
-          <div id="landing-text"></div>
           <img class="box-1" src="AxisTempImages_LS-008.jpg" alt="" />
         </div>
-        <div id="landing-text-inner">
+        <div class="wow fadeInDown" id="landing-text-inner">
           <h1>Axis Adventure Camps</h1>
           <h3>Building a Lifetime of Memories</h3>
         </div>
@@ -43,7 +52,7 @@
       <div id="landing-2">
         <div id="landing-text-2">
           <div class="landing-slant-background"></div>
-          <div id="landing-text-inner-2">
+          <div class="wow fadeIn" id="landing-text-inner-2">
             <h1>About Axis Adventures</h1>
             <h3>The Magic of Our Camp</h3>
             <h5>
@@ -58,7 +67,7 @@
             </h5>
           </div>
         </div>
-        <div class="landing-img">
+        <div class="wow animate__fadeIn landing-img">
           <img class="landing-2-img" src="Axis-2.jpg" alt="" />
         </div>
       </div>
@@ -66,9 +75,11 @@
       <div class="middle-section-container">
         <div class="middle-section">
           <div class="middle-section-inner">
-            <h1>Our People</h1>
+            <h1 class="wow animate__fadeInDown">Our People</h1>
             <div class="pmbi_and_logo">
-              <h3>PMBI (Professional Mountain Bike Instructors Association)</h3>
+              <h3 class="wow slideInRight animated">
+                PMBI (Professional Mountain Bike Instructors Association)
+              </h3>
               <h5>
                 Our staff are PMBI (Professional Mountain Bike Instructors
                 Association) certified, are highly trained, and first aid
@@ -76,7 +87,7 @@
                 is fully insured and registered within BC and Whistler, and is
                 based in Function Junction.
               </h5>
-              <img src="pmbi.png" alt="" />
+              <img class="wow fadeIn" src="pmbi.png" alt="" />
             </div>
           </div>
         </div>
@@ -85,7 +96,7 @@
       <div id="landing-3">
         <div id="landing-text-3">
           <div class="landing-slant-background-3"></div>
-          <div id="landing-text-inner-3">
+          <div class="wow fadeInDown animated" id="landing-text-inner-3">
             <h1>Who are we?</h1>
             <h5>
               Bike coaches, ski instructors and Whistler locals who love working
@@ -98,7 +109,9 @@
             </h5>
           </div>
         </div>
-        <img src="AC-4 copy.jpeg" alt="" />
+        <div class="landing-3-img">
+          <img src="AC-4 copy.jpeg" alt="" />
+        </div>
       </div>
     </main>
 
@@ -116,8 +129,12 @@
       integrity="sha256-+xf9aJnHocnmrigq2hIDJGBSAnJdF5NH+Ooe5J2PHiI="
       crossorigin="anonymous"
     ></script>
+    <script src="js/wow.min.js"></script>
     <script>
       var rellax = new Rellax(".rellax");
+    </script>
+    <script>
+      new WOW().init();
     </script>
   </body>
 </html>
