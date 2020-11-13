@@ -322,7 +322,7 @@ section {
   z-index: 3;
   background-color: #fefae0;
   max-width: 50%;
-  border: 2px solid #606c38;
+  border: 2px 5px 10px 2px solid #606c38;
   border-radius: 25px;
 }
 
@@ -487,15 +487,16 @@ section {
 /******************************COVID-19 PAGE ********************************/
 
 .covid-top-section-container {
-  position: relative;
+  /* position: relative;
   margin-top: 5rem;
-  font-size: 1.7rem;
+  font-size: 1.7rem; */
   background-color: #fefae0;
 
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%2394987d' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23606c38' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2390947e' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23697840' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%238d8f7f' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23728348' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23898b80' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%237b8f51' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23868681' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23839c5a' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23828282' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%238ca863' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
   background-attachment: fixed;
   background-size: cover;
 }
+
 
 .covid-top-section {
   padding: 10rem;
@@ -837,7 +838,7 @@ footer h3 p {
   margin-top: 10rem;
   display: flex;
   flex-direction: row;
-  margin-left: 16%;
+  margin:auto;
   margin-bottom: 10rem;
 }
 
@@ -922,7 +923,82 @@ footer h3 p {
   }
   100% {
     opacity: 1;
-  }
+  } 
+}
+
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 812px)  { 
+
+    .covid-top-section {
+    margin-top:10rem;
+    padding: 2rem;
+    width: 85%;
+    font-size: 1.3rem;
+    }
+
+    .middle-section-inner {
+        line-height: 2.2rem;
+    margin: auto;
+    }
+
+    .red-square {
+        height: 200px;
+        width:200px;
+    }
+
+    .middle-section {
+        margin:2rem;
+    }
+
+    #landing {
+    margin-top: 34%;
+    }
+  
+    .box-1 {
+      margin-top: 50px;
+    }
+    
+    #landing-2 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    #landing-text-inner-2 {
+        line-height: 2.2rem;
+      margin-left: 0rem;
+      padding: 2rem;
+    }
+    #landing-3 {
+      flex-direction: column;
+    }
+    #landing-text-inner-3 {
+        position: relative;
+        margin-left: 7.5rem;
+        margin-right:0rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        padding: 2rem;
+        line-height: 2.0;
+        font-size:1.2rem;
+    }
+    .landing-text-img {
+    }
+    .form-image {
+      display: none;
+    }
+  
+    .q-and-a {
+      margin: 5%;
+      display: flex;
+      flex-direction: column;
+      font-size: 1.3rem;
+    }
+  
+    .program-section-container {
+      margin-top: 25%;
+      max-width:60%;
+    }
 }
 
 @media screen and (max-width: 1180px) {
@@ -958,4 +1034,14 @@ footer h3 p {
     margin-top: 25%;
     max-width:60%;
   }
+
+  .covid-top-section {
+    padding: 2rem;
+    width: 85%;
+    font-size: 1.3rem;
 }
+}
+
+
+  
+  
