@@ -322,7 +322,7 @@ section {
   z-index: 3;
   background-color: #fefae0;
   max-width: 50%;
-  border: 2px 5px 10px 2px solid #606c38;
+  border: 2px solid #606c38;
   border-radius: 25px;
 }
 
@@ -602,10 +602,12 @@ section {
 
 .question:hover {
   transform: translateY(-3px);
+  cursor: pointer;
 }
 
 .question:active {
   transform: translateY(1px);
+  cursor: pointer;
 }
 
 .question:focus {
@@ -731,9 +733,6 @@ footer h3 p {
   font-size: 1.3rem;
 }
 
-.sign-up-form {
-}
-
 .form-style-5 {
   max-width: 500px;
   padding: 10px 20px;
@@ -778,7 +777,7 @@ footer h3 p {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   background-color: #e8eeef;
-  color: #8a97a0;
+  color: black;
   -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
   margin-bottom: 30px;
@@ -838,7 +837,7 @@ footer h3 p {
   margin-top: 10rem;
   display: flex;
   flex-direction: row;
-  margin:auto;
+  margin-left:17%;
   margin-bottom: 10rem;
 }
 
@@ -937,6 +936,11 @@ footer h3 p {
     font-size: 1.3rem;
     }
 
+    #landing-text-inner {
+      margin: 25px auto;
+
+    }
+
     .middle-section-inner {
         line-height: 2.2rem;
     margin: auto;
@@ -956,7 +960,7 @@ footer h3 p {
     }
   
     .box-1 {
-      margin-top: 50px;
+      margin-top: 0px;
     }
     
     #landing-2 {
@@ -987,6 +991,10 @@ footer h3 p {
     .form-image {
       display: none;
     }
+
+    .sign-up-form {
+      margin-top: 200px;
+    }
   
     .q-and-a {
       margin: 5%;
@@ -994,6 +1002,22 @@ footer h3 p {
       flex-direction: column;
       font-size: 1.3rem;
     }
+
+    .question {
+      max-width: 75%;
+    }
+    .answer {
+      max-width: 75%;
+    }
+    .faqs-headliner {
+      margin-top: 60%;
+      margin-bottom:40%;
+    }
+    .more-questions {
+      text-align: center;
+      padding: 5rem 3rem;
+      font-size: 1.4rem;
+  }
   
     .program-section-container {
       margin-top: 25%;
