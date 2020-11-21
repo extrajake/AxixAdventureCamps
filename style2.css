@@ -1081,6 +1081,9 @@ footer h3 p {
       margin-top: 25%;
       max-width:60%;
     }
+    .big-background-logos {
+      display:none;
+    }
 }
 
 @media screen and (max-width: 1180px) {
