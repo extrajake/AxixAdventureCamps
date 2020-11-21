@@ -855,11 +855,10 @@ footer h3 p {
 }
 
 .form-and-photo {
-  margin-top: 10rem;
+  margin: 10rem auto;
   display: flex;
   flex-direction: row;
-  margin-left:17%;
-  margin-bottom: 10rem;
+
 }
 
 .form-image img {
