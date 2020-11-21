@@ -34,5 +34,9 @@ $(document).ready(function() {
     $(".answer-4").show();
   });
 
+  $(".hamburger-icon").on("click", function() {
+    $(".hamburger-menu").toggle();
+  });
+
   console.log("online");
 });
