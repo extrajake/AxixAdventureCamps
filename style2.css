@@ -297,6 +297,27 @@ main {
   animation-delay: 3s;
 }
 
+.hamburger {
+  display: flex;
+  flex-direction:column;
+}
+
+.hamburger-menu {
+  display: none;
+
+}
+
+.hamburger-icon{
+  visibility: hidden;
+  position: fixed;
+  z-index: 10;
+  right: 25px;
+  top: 43px;
+  width: 35px;
+  height: 30px;
+  margin: 6px 0;
+}
+
 /*******************PROGRAMS PAGE************************/
 
 section {
@@ -988,8 +1009,45 @@ footer h3 p {
     }
     .landing-text-img {
     }
+
     .form-image {
       display: none;
+    }
+
+    .main-menu {
+      visibility: hidden;
+    }
+
+    .hamburger-icon {
+      margin-top: -2%;
+      position: absolute;
+      visibility: visible;
+    }
+    .hamburger-icon:hover {
+      transform: translateY(-3px);
+      cursor: pointer;
+    }
+
+    .hamburger-icon:active {
+      transform: translateY(1px);
+    }
+
+    .hamburger-menu {
+      display: none;
+      list-style: none;
+      background-color: #dda15e;
+      border: 2px solid white;
+      border-radius: 10px;
+      margin-top:-2%;
+      right:20px;
+      top:120px;
+      line-height: 35px;
+      position: fixed;
+      z-index: 10;
+      height: 143px;
+      width: 125px;
+      padding: 10px;
+      text-align: center;
     }
 
     .sign-up-form {
@@ -1044,6 +1102,10 @@ footer h3 p {
   .landing-text-img {
   }
   .form-image {
+    display: none;
+  }
+
+  .hambuger-menu {
     display: none;
   }
 
